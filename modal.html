@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link href="./_css/estilo.css" rel="stylesheet">
+	<script src="./_js/scriptsJS.js"></script>
+
+	<html>
+
+	</html>
+
+</head>
+
+<body>
+
+
+	<nav class="navbar navbar-expand-md navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	  
+		<div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+		  <ul class="navbar-nav mr-auto">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="#">Link</a>
+			</li>
+			<li class="nav-item dropdown">
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Dropdown
+			  </a>
+			  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+				<a class="dropdown-item" href="#">Ação</a>
+				<a class="dropdown-item" href="#">Outra ação</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="#">Algo mais aqui</a>
+			  </div>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link disabled" href="#">Desativado</a>
+			</li>
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+			<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+		  </form>
+		</div>
+	</nav>
+
+
+	<div class="fundo_modal" id="modal">
+		<div class="modalX">
+			<img src="./_img/logo-social.png">
+			<span class="fechar" onclick="fecharModal('modal');">&times;</span>
+		</div>
+	</div>
+
+	<div class="fundo_modal" id="modal2">
+		<div class="modalX">
+			<img src="./_img/huawei.jpg">
+			<span class="fechar" onclick="fecharModal('modal2');">&times;</span>
+		</div>
+	</div>
+
+	<div class="gridL">
+		<div class="logo">
+			<img src="./_img/logo-social.png" width="140px" height="70px" class="abrir_modal img_modal" onclick="abrirModal('modal');">
+			<img src="./_img/huawei.jpg" width="140px" height="70px" class="abrir_modal img_modal" onclick="abrirModal('modal2');">
+		</div>
+		<div class="cabecalho">
+			<header>Cabeçalho</header>
+		</div>
+		<div class="busca">Busca</div>
+		<div class="links"><nav>Links</nav></div>
+		
+		<div class="conteudos">
+			<div class="flexB">
+				<div class="cont">Conteúdo 1</div><div class="cont">Conteúdo 2</div><div class="cont">Conteúdo 3</div><div class="cont">Conteúdo 4</div>
+			</div>
+		</div>
+		
+		<div class="rodape"><footer>Rodapé</footer></div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+</body>
+</html>
